@@ -1,0 +1,195 @@
+.App {
+  text-align: center;
+  /* background-color:rgb(214, 214, 214); */
+  height: auto;
+}
+
+
+.app-display{
+  display: flex;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.workout{
+  border-radius: 36px;
+  background-color: rgb(255, 255, 255); 
+  padding: 2%;
+  margin: 2%;
+  position: relative;
+  text-align: left;
+  padding-left: 6%;
+}
+
+.workout:hover{
+  /* background-color:rgb(182, 181, 181); */
+  -webkit-box-shadow: 0px 0px 33px -3px rgba(0,0,0,0.51);
+-moz-box-shadow: 0px 0px 33px -3px rgba(0,0,0,0.51);
+box-shadow: 0px 0px 33px -3px rgba(0,0,0,0.51);
+}
+
+.workout h3{
+  margin: 0;
+  font-size: 140%;
+  font-weight:900;
+}
+
+.workouts{ 
+  flex: 7;
+  padding:0 10% 0 10%;
+  max-width: 40vw;
+}
+
+.form{
+  flex:3; 
+  border-radius: 36px;
+  padding: 3%;
+  margin:0 10% 0 0 ;
+  height: max-content;
+  background-color: white;
+  margin-top: 1%;
+  position: fixed;
+  right: 0px;
+  width: 50vh;
+}
+
+.navbar{
+  background-color: black;
+  height: fit-content;
+  padding: 0.5%;
+  margin-bottom: 1%;
+  text-align: left;
+  padding-left: 12%;
+  display: flex;
+  justify-content:space-between;
+}
+
+.navbar nav{
+  display: flex;
+}
+
+.navbar h1{
+  margin: 0px;
+  font-size:35px;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+nav{
+  align-items: baseline;
+  color: white;
+}
+
+.navbar .auth{
+  margin-right: 15vh;
+  margin-top: 3vh;
+}
+
+.status{
+  margin-right: 15vh;
+}
+
+.status button:hover{
+  background-color:rgb(174, 5, 5);
+}
+
+.Header{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+label input{
+  display:inline-block; 
+  align-items: center;
+}
+
+label{
+  margin-right: 20px;
+}
+
+input{
+  border-radius: 10px;
+  border: dotted 1px black;
+  padding: 2px 3px;
+}
+
+input.error{
+  border: red solid 2px;
+}
+
+
+.error-message-workoutForm{
+  color: red;
+}
+
+.form-input{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.error{
+  color: red;
+}
+
+button{
+  margin:20px;
+  border: none;
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 26px;
+  font-size:small;
+}
+
+button:hover{
+  background-color: rgb(49, 151, 49);
+  color: white;
+}
+
+.delete:hover{
+  background-color: rgb(174, 5, 5);
+}
+
+.delete{
+   position:absolute;
+   top:-5px;
+   right:0px;
+   background-color: rgba(213, 213, 213, 0.748);
+   color: grey;
+   font-size:large;
+}
+
+.time{
+  color: rgb(129, 129, 129);
+  font-weight: 100;
+  font-size: small;
+  text-align: right;
+  padding-right: 3%;
+}
+
+.signup,.login{
+  background-color: white;
+  border-radius: 26px;
+  width: 250px;
+  padding: 3%;
+  position: relative;
+  left:40%;
+}
+
